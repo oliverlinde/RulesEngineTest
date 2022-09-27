@@ -1,8 +1,14 @@
 ﻿using System;
 namespace FAQ.models
 {
-    public enum Tag
+    public class Tag
     {
+        public string name { get; set; }
+
+        public Tag(string name)
+        {
+            this.name = name;
+        }
     }
 }
 

@@ -1,15 +1,16 @@
 ﻿namespace FAQ.models;
-public class FAQ
+
+public class QuestionAnswer : IEntity
 {
     public int id { get; set; }
-    public Category category { get; set; }
+    public List<Tag>? tags { get; set; }
     public string question { get; set; }
     public string answer { get; set; }
 
-    public FAQ(int id, Category category, string question, string answer)
+    public QuestionAnswer(int id, List<Tag>? tags, string question, string answer)
     {
         this.id = id;
-        this.category = category;
+        this.tags = tags;
         this.question = question;
         this.answer = answer;
     }

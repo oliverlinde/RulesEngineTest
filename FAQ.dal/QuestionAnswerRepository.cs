@@ -1,34 +1,32 @@
 ﻿using System;
+using FAQ.models;
 
 namespace FAQ.dal
 {
-    public class FAQRepository : IFAQRepository
+    public class QuestionAnswerRepository : IQuestionAnswerRepository
     {
-        public FAQRepository()
-        {
-        }
 
-        public void CreateFAQ(models.FAQ faq)
+        public void CreateQuestionAnswer()
         {
             throw new NotImplementedException();
         }
 
-        public void DeleteFAQ(int id)
+        public void DeleteQuestionAnswea(int id)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<models.FAQ> GetAllFAQ()
+        public List<QuestionAnswear> GetAllQuestionAnswers()
         {
             throw new NotImplementedException();
         }
 
-        public models.FAQ GetFAQ(int id)
+        public QuestionAnswer GetQuestionAnswer(int id)
         {
             throw new NotImplementedException();
         }
 
-        public models.FAQ UpdateFAQ(models.FAQ faq)
+        public QuestionAnswer UpdateQuestionAnswer(QuestionAnswer questionAnswer)
         {
             throw new NotImplementedException();
         }

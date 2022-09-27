@@ -1,8 +1,13 @@
-﻿using System;
-namespace FAQ.models
+﻿namespace FAQ.models
 {
-    public interface IFAQ
+    public class FAQ
     {
+	    public List<QuestionAnswer> listOfQuestionAnswers { get; set; }
+
+	    public FAQ(List<QuestionAnswer> listOfQuestionAnswers)
+	    {
+			this.listOfQuestionAnswers = listOfQuestionAnswers;
+	    }
     }
 }
 

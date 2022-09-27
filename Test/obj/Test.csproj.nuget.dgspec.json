@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\Test\\Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj",
+        "projectName": "FAQ.bll",
+        "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj",
+        "packagesPath": "C:\\Users\\lehma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lehma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj": {
+                "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj",
+        "projectName": "FAQ.models",
+        "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj",
+        "packagesPath": "C:\\Users\\lehma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lehma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\Test\\Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\Test\\Test.csproj",
+        "projectName": "Test",
+        "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\lehma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lehma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj": {
+                "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

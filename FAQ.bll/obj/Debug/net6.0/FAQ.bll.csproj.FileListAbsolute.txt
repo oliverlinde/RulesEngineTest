@@ -1,0 +1,15 @@
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\obj\Debug\net6.0\FAQ.bll.csproj.AssemblyReference.cache
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\obj\Debug\net6.0\FAQ.bll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\obj\Debug\net6.0\FAQ.bll.AssemblyInfoInputs.cache
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\obj\Debug\net6.0\FAQ.bll.AssemblyInfo.cs
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\obj\Debug\net6.0\FAQ.bll.csproj.CoreCompileInputs.cache
+C:\Users\lehma\source\repos\oliverlinde\RulesEngineTest\FAQ.bll\bin\Debug\net6.0\FAQ.bll.deps.json
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\bin\Debug\net6.0\FAQ.bll.dll
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\bin\Debug\net6.0\FAQ.bll.pdb
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\bin\Debug\net6.0\FAQ.models.dll
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\bin\Debug\net6.0\FAQ.models.pdb
+C:\Users\lehma\source\repos\oliverlinde\RulesEngineTest\FAQ.bll\obj\Debug\net6.0\FAQ.bll.csproj.CopyComplete
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\obj\Debug\net6.0\FAQ.bll.dll
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\obj\Debug\net6.0\refint\FAQ.bll.dll
+C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.bll\obj\Debug\net6.0\FAQ.bll.pdb
+C:\Users\lehma\source\repos\oliverlinde\RulesEngineTest\FAQ.bll\obj\Debug\net6.0\ref\FAQ.bll.dll
