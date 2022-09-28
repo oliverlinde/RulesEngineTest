@@ -6,17 +6,17 @@ namespace FAQ.dal
     public class QuestionAnswerRepository : IQuestionAnswerRepository
     {
 
-        public void CreateQuestionAnswer()
+        public void CreateQuestionAnswer(QuestionAnswer questionAnswer)
         {
             throw new NotImplementedException();
         }
 
-        public void DeleteQuestionAnswea(int id)
+        public void DeleteQuestionAnswer(int id)
         {
             throw new NotImplementedException();
         }
 
-        public List<QuestionAnswear> GetAllQuestionAnswers()
+        public List<QuestionAnswer> GetAllQuestionAnswers()
         {
             throw new NotImplementedException();
         }

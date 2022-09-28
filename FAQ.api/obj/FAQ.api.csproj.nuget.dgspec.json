@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.api\\FAQ.api.csproj": {}
+    "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.api\\FAQ.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.api\\FAQ.api.csproj": {
+    "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.api\\FAQ.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.api\\FAQ.api.csproj",
+        "projectUniqueName": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.api\\FAQ.api.csproj",
         "projectName": "FAQ.api",
-        "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.api\\FAQ.api.csproj",
-        "packagesPath": "C:\\Users\\lehma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.api\\obj\\",
+        "projectPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.api\\FAQ.api.csproj",
+        "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lehma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

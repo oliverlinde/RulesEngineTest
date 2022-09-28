@@ -1,0 +1,15 @@
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\bin\Debug\net6.0\FAQ.dal.deps.json
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\bin\Debug\net6.0\FAQ.dal.dll
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\bin\Debug\net6.0\FAQ.dal.pdb
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\bin\Debug\net6.0\FAQ.models.dll
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\bin\Debug\net6.0\FAQ.models.pdb
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\obj\Debug\net6.0\FAQ.dal.csproj.AssemblyReference.cache
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\obj\Debug\net6.0\FAQ.dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\obj\Debug\net6.0\FAQ.dal.AssemblyInfoInputs.cache
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\obj\Debug\net6.0\FAQ.dal.AssemblyInfo.cs
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\obj\Debug\net6.0\FAQ.dal.csproj.CoreCompileInputs.cache
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\obj\Debug\net6.0\FAQ.dal.csproj.CopyComplete
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\obj\Debug\net6.0\FAQ.dal.dll
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\obj\Debug\net6.0\refint\FAQ.dal.dll
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\obj\Debug\net6.0\FAQ.dal.pdb
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.dal\obj\Debug\net6.0\ref\FAQ.dal.dll

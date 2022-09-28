@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj": {}
+    "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj": {
+    "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj",
+        "projectUniqueName": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj",
         "projectName": "FAQ.bll",
-        "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj",
-        "packagesPath": "C:\\Users\\lehma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\obj\\",
+        "projectPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj",
+        "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.bll\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lehma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj": {
-                "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj"
+              "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.dal\\FAQ.dal.csproj": {
+                "projectPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.dal\\FAQ.dal.csproj"
+              },
+              "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj": {
+                "projectPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj"
               }
             }
           }
@@ -62,17 +65,75 @@
         }
       }
     },
-    "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj": {
+    "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.dal\\FAQ.dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj",
-        "projectName": "FAQ.models",
-        "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj",
-        "packagesPath": "C:\\Users\\lehma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.models\\obj\\",
+        "projectUniqueName": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.dal\\FAQ.dal.csproj",
+        "projectName": "FAQ.dal",
+        "projectPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.dal\\FAQ.dal.csproj",
+        "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.dal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lehma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj": {
+                "projectPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj",
+        "projectName": "FAQ.models",
+        "projectPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.models\\FAQ.models.csproj",
+        "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

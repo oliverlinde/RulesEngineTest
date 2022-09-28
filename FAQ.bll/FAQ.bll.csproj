@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FAQ.dal\FAQ.dal.csproj" />
     <ProjectReference Include="..\FAQ.models\FAQ.models.csproj" />
   </ItemGroup>
 

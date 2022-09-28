@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FAQ.bll\FAQ.bll.csproj" />
+    <ProjectReference Include="..\FAQ.dal\FAQ.dal.csproj" />
   </ItemGroup>
 
 </Project>

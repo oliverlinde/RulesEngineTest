@@ -1727,6 +1727,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "FAQ.dal": "1.0.0",
           "FAQ.models": "1.0.0"
         },
         "compile": {
@@ -1734,6 +1735,19 @@
         },
         "runtime": {
           "bin/placeholder/FAQ.bll.dll": {}
+        }
+      },
+      "FAQ.dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FAQ.models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FAQ.dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FAQ.dal.dll": {}
         }
       },
       "FAQ.models/1.0.0": {
@@ -6121,6 +6135,11 @@
       "path": "../FAQ.bll/FAQ.bll.csproj",
       "msbuildProject": "../FAQ.bll/FAQ.bll.csproj"
     },
+    "FAQ.dal/1.0.0": {
+      "type": "project",
+      "path": "../FAQ.dal/FAQ.dal.csproj",
+      "msbuildProject": "../FAQ.dal/FAQ.dal.csproj"
+    },
     "FAQ.models/1.0.0": {
       "type": "project",
       "path": "../FAQ.models/FAQ.models.csproj",
@@ -6130,6 +6149,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "FAQ.bll >= 1.0.0",
+      "FAQ.dal >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "Moq >= 4.18.2",
       "coverlet.collector >= 3.1.2",
@@ -6138,19 +6158,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lehma\\.nuget\\packages\\": {}
+    "C:\\Users\\olive\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\Test\\Test.csproj",
-      "packagesPath": "C:\\Users\\lehma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\Test\\obj\\",
+      "projectPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lehma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6164,8 +6184,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj": {
-              "projectPath": "C:\\Users\\lehma\\Source\\Repos\\oliverlinde\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj"
+            "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj": {
+              "projectPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.bll\\FAQ.bll.csproj"
+            },
+            "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.dal\\FAQ.dal.csproj": {
+              "projectPath": "C:\\Users\\olive\\Source\\Repos\\RulesEngineTest\\FAQ.dal\\FAQ.dal.csproj"
             }
           }
         }

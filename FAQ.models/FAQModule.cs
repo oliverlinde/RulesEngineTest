@@ -1,10 +1,10 @@
 ﻿namespace FAQ.models
 {
-    public class FAQ
+    public class FAQModule
     {
 	    public List<QuestionAnswer> listOfQuestionAnswers { get; set; }
 
-	    public FAQ(List<QuestionAnswer> listOfQuestionAnswers)
+	    public FAQModule(List<QuestionAnswer> listOfQuestionAnswers)
 	    {
 			this.listOfQuestionAnswers = listOfQuestionAnswers;
 	    }

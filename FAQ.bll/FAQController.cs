@@ -1,29 +1,43 @@
 ﻿using System;
 using FAQ.models;
+using FAQ.dal;
 
 namespace FAQ.bll
 {
-
-
-
-	public class FAQController : IFAQController
+    public class FAQController : IFAQController
 	{
-		public models.FAQ Faq { get; set; }
-		public FAQController()
-		{
-			List<QuestionAnswer> list = new List<QuestionAnswer>();
-			Faq = new models.FAQ(list);
-		}
+        public FAQModule FaqModule { get; set; }
+        public User CurrentUser { get; set; }
 
-		public List<QuestionAnswer> GetFAQ()
-		{
-			return Faq.listOfQuestionAnswers;
-		}
+        public FAQController(FAQModule faqModule, User currentUser)
+        {
+            FaqModule = faqModule;
+            CurrentUser = currentUser;
+        }
 
-		public void PopulateFAQ(List<QuestionAnswer> listOfQuestionAnswers)
-		{
-			Faq.listOfQuestionAnswers = listOfQuestionAnswers;
-		}
+		public FAQModule GetFAQ()
+        {
+            return FaqModule;
+        }
 
-	}
+        public void PopulateFAQ(List<QuestionAnswer> listOfQuestionAnswers)
+        {
+            FaqModule.listOfQuestionAnswers = listOfQuestionAnswers;
+        }
+
+        public FAQModule SortFAQ(FAQModule unsortedFaqModule)
+        {
+            List<QuestionAnswer> sortedQAs = new List<QuestionAnswer>();
+            foreach (QuestionAnswer qa in unsortedFaqModule.listOfQuestionAnswers)
+            {
+                if (qa.tags.Any().Equals(CurrentUser.Tags.Any()))
+                {
+                    sortedQAs.Add(qa);
+                }
+            }
+
+            FAQModule sortedFaqModule = new FAQModule(sortedQAs);
+            return sortedFaqModule;
+        }
+    }
 }

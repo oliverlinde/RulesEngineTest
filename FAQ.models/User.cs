@@ -3,8 +3,10 @@ namespace FAQ.models
 {
     public class User
     {
-        public User()
+        public List<Tag> Tags { get; set; }
+        public User(List<Tag> tags)
         {
+            Tags = tags;
         }
     }
 }

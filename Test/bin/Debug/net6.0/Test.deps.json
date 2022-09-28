@@ -9,6 +9,7 @@
       "Test/1.0.0": {
         "dependencies": {
           "FAQ.bll": "1.0.0",
+          "FAQ.dal": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.3.2",
           "Moq": "4.18.2",
           "coverlet.collector": "3.1.2",
@@ -1137,10 +1138,19 @@
       "xunit.runner.visualstudio/2.4.5": {},
       "FAQ.bll/1.0.0": {
         "dependencies": {
+          "FAQ.dal": "1.0.0",
           "FAQ.models": "1.0.0"
         },
         "runtime": {
           "FAQ.bll.dll": {}
+        }
+      },
+      "FAQ.dal/1.0.0": {
+        "dependencies": {
+          "FAQ.models": "1.0.0"
+        },
+        "runtime": {
+          "FAQ.dal.dll": {}
         }
       },
       "FAQ.models/1.0.0": {
@@ -1822,6 +1832,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
     },
     "FAQ.bll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FAQ.dal/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

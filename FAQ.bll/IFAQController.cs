@@ -6,7 +6,10 @@ namespace FAQ.bll;
 
 public interface IFAQController
 {
-	List<QuestionAnswer> GetFAQ();
+	FAQModule GetFAQ();
 	void PopulateFAQ(List<QuestionAnswer> listOfQuestionAnswers);
+
+    FAQModule SortFAQ(FAQModule unsortedFaqModule);
+
 }
 

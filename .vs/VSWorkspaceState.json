@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\FAQ.bll",
-    "\\FAQ.dal",
-    "\\FAQ.models"
+    ""
   ],
-  "SelectedNode": "\\FAQ.bll\\IFAQController.cs",
+  "SelectedNode": "\\RulesEngineTest.sln",
   "PreviewInSolutionExplorer": false
 }

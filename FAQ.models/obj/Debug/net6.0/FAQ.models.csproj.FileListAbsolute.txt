@@ -10,3 +10,15 @@ C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.models\obj\Debug\net
 C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.models\obj\Debug\net6.0\refint\FAQ.models.dll
 C:\Users\lehma\Source\Repos\oliverlinde\RulesEngineTest\FAQ.models\obj\Debug\net6.0\FAQ.models.pdb
 C:\Users\lehma\source\repos\oliverlinde\RulesEngineTest\FAQ.models\obj\Debug\net6.0\ref\FAQ.models.dll
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\bin\Debug\net6.0\FAQ.models.deps.json
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\bin\Debug\net6.0\FAQ.models.dll
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\bin\Debug\net6.0\FAQ.models.pdb
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\obj\Debug\net6.0\FAQ.models.csproj.AssemblyReference.cache
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\obj\Debug\net6.0\FAQ.models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\obj\Debug\net6.0\FAQ.models.AssemblyInfoInputs.cache
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\obj\Debug\net6.0\FAQ.models.AssemblyInfo.cs
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\obj\Debug\net6.0\FAQ.models.csproj.CoreCompileInputs.cache
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\obj\Debug\net6.0\FAQ.models.dll
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\obj\Debug\net6.0\refint\FAQ.models.dll
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\obj\Debug\net6.0\FAQ.models.pdb
+C:\Users\olive\Source\Repos\RulesEngineTest\FAQ.models\obj\Debug\net6.0\ref\FAQ.models.dll
