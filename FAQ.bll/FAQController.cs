@@ -30,7 +30,7 @@ namespace FAQ.bll
             List<QuestionAnswer> sortedQAs = new List<QuestionAnswer>();
             foreach (QuestionAnswer qa in unsortedFaqModule.listOfQuestionAnswers)
             {
-                if (qa.tags.Any().Equals(CurrentUser.Tags.Any()))
+                if (qa.tags.ToString().ToHashSet().SetEquals(CurrentUser.Tags.ToString()))
                 {
                     sortedQAs.Add(qa);
                 }
